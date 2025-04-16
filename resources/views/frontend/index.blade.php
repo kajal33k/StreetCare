@@ -19,7 +19,7 @@
 
 
     <!-- Hero Section -->
-    <section class="relative overflow-hidden bg-pink-900">
+    <section class="relative overflow-hidden bg-[#AC9A60]">
         <div class="absolute inset-0 bg-black opacity-40"></div>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -39,7 +39,7 @@
                         <div
                             class="mt-8 flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center lg:justify-start">
                             <a href="#"
-                                class="px-8 py-3 border border-white text-base font-medium rounded-md text-white bg-primary hover:bg-pink-700 transition-colors duration-200 md:py-4 md:text-lg md:px-10">
+                                class="px-8 py-3 border border-white text-base font-medium rounded-md text-white bg-primary hover:bg-yellow-700 transition-colors duration-200 md:py-4 md:text-lg md:px-10">
                                 Donate Now
                             </a>
 
@@ -55,7 +55,7 @@
                 <div class="w-full lg:w-1/2 lg:pl-8">
                     <div class="aspect-w-16 aspect-h-9 lg:aspect-none">
                         <img class="w-full h-full object-cover rounded-lg shadow-xl"
-                            src="https://images.unsplash.com/photo-1544568100-847a948585b9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+                            src="{{asset('asset/image/street-paws.png')}}"
                             alt="Rescued animals looking for adoption" loading="lazy" width="800" height="600">
                     </div>
                 </div>

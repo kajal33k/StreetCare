@@ -26,3 +26,5 @@ require __DIR__.'/auth.php';
 Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::get('/volenteer', [HomeController::class, 'volenteer'])->name('volenteer');
 Route::get('/saviour', [HomeController::class, 'saviour'])->name('saviour');
+Route::get('/protector', [HomeController::class, 'protector'])->name('protector');
+Route::get('/informer', [HomeController::class, 'informer'])->name('informer');

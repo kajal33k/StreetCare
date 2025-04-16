@@ -17,4 +17,12 @@ class HomeController extends Controller
     public function saviour(){
         return view('frontend.saviour');
     }
+
+    public function protector(){
+        return view('frontend.protector');
+    }
+
+    public function informer(){
+        return view('frontend.informer');
+    }
 }
