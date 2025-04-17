@@ -19,8 +19,8 @@
 
 
     <!-- Hero Section -->
-    <section class="relative overflow-hidden bg-[#AC9A60]">
-        <div class="absolute inset-0 bg-black opacity-40"></div>
+    <section class="relative overflow-hidden bg-[#A64D79]">
+        <div class="absolute inset-0 bg-white opacity-40"></div>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="flex flex-col lg:flex-row items-center">
@@ -38,24 +38,32 @@
 
                         <div
                             class="mt-8 flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center lg:justify-start">
+
+                            <!-- Donate Button (styled link as button) -->
                             <a href="#"
-                                class="px-8 py-3 border border-white text-base font-medium rounded-md text-white bg-primary hover:bg-yellow-700 transition-colors duration-200 md:py-4 md:text-lg md:px-10">
-                                Donate Now
+                                class="relative inline-block px-6 py-3 font-semibold  text-white transition-all duration-300 ease-in-out  bg-gradient-to-br from-[#A64D79] to-[#3B1C32] rounded-full shadow-lg hover:shadow-2xl hover:scale-105 focus:outline-none focus:ring-4 focus:ring-pink-300">
+                                <span
+                                    class="absolute top-0 left-0 w-full h-full rounded-full opacity-10 bg-white blur-md"></span>
+                                <span class="relative z-10">Donate</span>
                             </a>
 
-                            <a href="#"
-                                class="px-8 py-3 border border-transparent text-base font-medium rounded-md text-primary bg-white hover:bg-gray-50 transition-colors duration-200 md:py-4 md:text-lg md:px-10">
-                                Learn More
-                            </a>
+                            <!-- Learn More Button -->
+                            <button
+                                class="relative inline-block px-6 py-3 font-semibold text-white transition-all duration-300 ease-in-out bg-gradient-to-br from-[#A64D79] to-[#3B1C32] rounded-full shadow-lg hover:shadow-2xl hover:scale-105 focus:outline-none focus:ring-4 focus:ring-pink-300">
+                                <span
+                                    class="absolute top-0 left-0 w-full h-full rounded-full opacity-10 bg-white blur-md"></span>
+                                <span class="relative z-10">✨Learn More</span>
+                            </button>
+
                         </div>
+
                     </div>
                 </div>
 
                 <!-- Image -->
                 <div class="w-full lg:w-1/2 lg:pl-8">
                     <div class="aspect-w-16 aspect-h-9 lg:aspect-none">
-                        <img class="w-full h-full object-cover rounded-lg shadow-xl"
-                            src="{{asset('asset/image/street-paws.png')}}"
+                        <img class="w-full h-full object-cover" src="{{ asset('asset/image/street-paws.png') }}"
                             alt="Rescued animals looking for adoption" loading="lazy" width="800" height="600">
                     </div>
                 </div>
@@ -82,7 +90,7 @@
                 <div
                     class="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 h-80 bg-white">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent z-10"></div>
-                    <img src="https://images.unsplash.com/photo-1583511655826-05700442b31b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                    <img src="https://cdn.pixabay.com/photo/2014/03/14/20/13/dog-287420_1280.jpg"
                         alt="Happy dog with adoptive family"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         loading="lazy">
@@ -123,7 +131,7 @@
                 <div
                     class="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 h-80 bg-white">
                     <div class="absolute inset-0 bg-gradient-to-t from-blue-900/70 to-transparent z-10"></div>
-                    <img src="https://images.unsplash.com/photo-1455103493930-a116f655b6c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+                    <img src="https://media.istockphoto.com/id/1268414333/photo/a-village-woman-tries-to-help-a-wounded-bird-and-gives-it-water.jpg?s=612x612&w=0&k=20&c=4kXVuiXyrs6S26uYj_JBo7HboaWUMfQLNyv26O2Oyio="
                         alt="Veterinarian helping a dog"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         loading="lazy">
@@ -165,7 +173,7 @@
                 <div
                     class="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 h-80 bg-white">
                     <div class="absolute inset-0 bg-gradient-to-t from-green-900/70 to-transparent z-10"></div>
-                    <img src="https://images.unsplash.com/photo-1579165466749-5650df9b7dab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                    <img src="https://cdn.pixabay.com/photo/2020/06/24/10/17/old-crow-5335624_1280.jpg"
                         alt="Veterinarian examining a cat"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         loading="lazy">
@@ -206,7 +214,7 @@
                 <div
                     class="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 h-80 bg-white">
                     <div class="absolute inset-0 bg-gradient-to-t from-purple-900/70 to-transparent z-10"></div>
-                    <img src="https://images.unsplash.com/photo-1544568100-847a948585b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
+                    <img src="https://cdn.pixabay.com/photo/2017/08/04/09/39/indian-cow-2579534_1280.jpg"
                         alt="Person protecting a dog"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         loading="lazy">
@@ -247,7 +255,7 @@
                 <div
                     class="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 h-80 bg-white">
                     <div class="absolute inset-0 bg-gradient-to-t from-orange-900/70 to-transparent z-10"></div>
-                    <img src="https://images.unsplash.com/photo-1551334787-21e6bd3ab135?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                    <img src="https://cdn.pixabay.com/photo/2018/06/19/10/29/reclining-monkey-3484185_1280.jpg"
                         alt="Volunteers helping animals"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         loading="lazy">
@@ -289,7 +297,7 @@
                 <div
                     class="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 h-80 bg-white">
                     <div class="absolute inset-0 bg-gradient-to-t from-red-900/70 to-transparent z-10"></div>
-                    <img src="https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80"
+                    <img src="https://cdn.pixabay.com/photo/2023/09/18/13/51/cat-8260638_1280.jpg"
                         alt="Person reporting animal in need"
                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         loading="lazy">
@@ -330,8 +338,14 @@
             <!-- View All Button -->
             <div class="text-center mt-12">
                 <a href="#"
-                    class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-full shadow-sm text-white bg-pink-600 hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500 transition-all">
-                    Explore all ways to help
+                    class="inline-flex items-center px-8 py-3 text-base font-semibold rounded-full text-white 
+                    bg-gradient-to-r from-[#A64D79] to-[#3B1C32] 
+                    shadow-lg shadow-pink-200/40 
+                    hover:from-[#3B1C32] hover:to-[#A64D79] 
+                    hover:shadow-pink-300/60 
+                    transition-all duration-300 ease-in-out transform hover:-translate-y-0.5 hover:scale-105
+                    focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-300">
+                    <span class="relative z-10">Explore all ways to help</span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 -mr-1" viewBox="0 0 20 20"
                         fill="currentColor">
                         <path fill-rule="evenodd"
@@ -340,10 +354,11 @@
                     </svg>
                 </a>
             </div>
+
         </div>
     </section>
 
-    
+
     <style>
         body {
             font-family: 'Poppins', sans-serif;
@@ -355,200 +370,200 @@
             background-position: center;
         }
     </style>
- 
-        <!-- Hero Section -->
-        <section class="hero-bg min-h-[70vh] flex flex-col justify-center items-center text-white text-center px-4 py-20">
-            <h1 class="text-4xl md:text-6xl font-bold mb-4 tracking-wide">TRANSFORMING LIVES</h1>
-            <h2 class="text-3xl md:text-5xl font-semibold mb-8">ONE PAW AT A TIME</h2>
-            <p class="max-w-2xl mx-auto text-lg md:text-xl mb-8">
-                Animal Matter to Me (AMTM) is a dedicated nonprofit organization focused on the rescue, rehabilitation, and
-                care of stray and abandoned animals. Since 2010, we have been creating a safe haven where every animal
+
+    <!-- Hero Section -->
+    <section
+        class="hero-bg min-h-[70vh] flex flex-col justify-center items-center text-white text-center px-4 py-20 bg-gradient-to-b from-[#3B1C32] via-[#A64D79] to-[#EAC9D1] relative overflow-hidden">
+
+        <!-- Floating Lights (Optional Sparkle Background) -->
+        <div class="absolute inset-0 pointer-events-none z-0">
+            <div class="w-80 h-80 bg-pink-200 opacity-10 rounded-full blur-3xl absolute top-10 left-10 animate-pulse">
+            </div>
+            <div
+                class="w-60 h-60 bg-purple-300 opacity-10 rounded-full blur-2xl absolute bottom-10 right-10 animate-pulse">
+            </div>
+        </div>
+
+        <div class="relative z-10 max-w-4xl mx-auto">
+            <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold mb-4 tracking-wide drop-shadow-md">TRANSFORMING LIVES
+            </h1>
+            <h2 class="text-2xl md:text-4xl lg:text-5xl font-semibold mb-6 drop-shadow-sm">ONE PAW AT A TIME</h2>
+            <p class="max-w-3xl mx-auto text-base md:text-lg lg:text-xl mb-8 text-pink-100">
+                Animal Matter to Me (AMTM) is a dedicated nonprofit organization focused on the rescue, rehabilitation,
+                and care of stray and abandoned animals. Since 2010, we have been creating a safe haven where every animal
                 receives the love, respect, and medical care they deserve.
             </p>
+
             <button
-                class="bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 transform hover:scale-105">
+                class="bg-gradient-to-r from-[#A64D79] to-[#3B1C32] text-white font-semibold py-3 px-10 rounded-full text-lg shadow-lg hover:from-[#3B1C32] hover:to-[#A64D79] transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-300">
                 Know More About Us
             </button>
-        </section>
+        </div>
+    </section>
 
-        <!-- What We Do Section -->
-        <section class="py-16 px-4 max-w-6xl mx-auto">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">WHAT WE DO</h2>
-                <h3 class="text-2xl md:text-3xl font-semibold text-amber-600">PROTECTING OUR VOICELESS FRIENDS</h3>
+
+    <!-- What We Do Section -->
+    <section class="py-20 px-4 max-w-7xl mx-auto relative bg-gradient-to-b from-[#FDECEF] via-white to-[#FFF5F7] rounded-3xl shadow-inner overflow-hidden">
+
+        <!-- Soft Background Glows (Optional) -->
+        <div class="absolute inset-0 z-0 pointer-events-none">
+          <div class="absolute top-0 left-0 w-72 h-72 bg-pink-200 opacity-20 blur-3xl rounded-full animate-pulse"></div>
+          <div class="absolute bottom-0 right-0 w-80 h-80 bg-purple-300 opacity-20 blur-3xl rounded-full animate-pulse"></div>
+        </div>
+      
+        <!-- Section Header -->
+        <div class="relative z-10 text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold text-[#3B1C32] tracking-wide mb-2">WHAT WE DO</h2>
+          <h3 class="text-2xl md:text-3xl font-medium text-[#A64D79]">PROTECTING OUR VOICELESS FRIENDS</h3>
+          <p class="text-gray-600 max-w-2xl mx-auto mt-4 text-base md:text-lg">We’re devoted to the care and safety of street animals, bringing warmth, healing, and hope—one paw at a time.</p>
+        </div>
+      
+        <!-- Cards Grid -->
+        <div class="relative z-10 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          
+          <!-- Card 1 -->
+          <div class="bg-white rounded-3xl shadow-xl overflow-hidden border-t-4 border-[#A64D79] hover:shadow-2xl transition-transform duration-300 hover:scale-105">
+            <div class="h-44 bg-gradient-to-br from-[#3B1C32] to-[#A64D79] flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
             </div>
-
-            <div class="grid md:grid-cols-3 gap-8">
-                <!-- Card 1 -->
-                <div
-                    class="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 transform hover:scale-105">
-                    <div class="h-48 bg-amber-100 flex items-center justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-amber-600" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                    </div>
-                    <div class="p-6">
-                        <h4 class="text-xl font-bold mb-3 text-gray-800">Sterilization & Vaccination</h4>
-                        <p class="text-gray-600 mb-4">
-                            Controlling the population of stray animals through humane sterilization and vaccination drives,
-                            preventing the spread of diseases.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Card 2 -->
-                <div
-                    class="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 transform hover:scale-105">
-                    <div class="h-48 bg-amber-100 flex items-center justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-amber-600" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                    </div>
-                    <div class="p-6">
-                        <h4 class="text-xl font-bold mb-3 text-gray-800">Emergency Rescue</h4>
-                        <p class="text-gray-600 mb-4">
-                            Providing critical rescue services for animals in distress, whether injured in accidents or
-                            abandoned by their owners.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Card 3 -->
-                <div
-                    class="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 transform hover:scale-105">
-                    <div class="h-48 bg-amber-100 flex items-center justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-amber-600" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-                        </svg>
-                    </div>
-                    <div class="p-6">
-                        <h4 class="text-xl font-bold mb-3 text-gray-800">Medical Care & Rehabilitation</h4>
-                        <p class="text-gray-600">
-                            Our state-of-the-art facility offers essential medical care, surgeries, and rehabilitation to
-                            help animals recover and thrive.
-                        </p>
-                    </div>
-                </div>
+            <div class="p-6">
+              <h4 class="text-xl font-semibold mb-2 text-[#3B1C32]">Sterilization & Vaccination</h4>
+              <p class="text-gray-600 text-sm leading-relaxed">
+                Controlling the population of stray animals through humane sterilization and vaccination drives,
+                preventing the spread of diseases.
+              </p>
             </div>
-
-            <div class="text-center mt-12">
-                <button
-                    class="bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 transform hover:scale-105">
-                    Know More
-                </button>
+          </div>
+      
+          <!-- Card 2 -->
+          <div class="bg-white rounded-3xl shadow-xl overflow-hidden border-t-4 border-[#A64D79] hover:shadow-2xl transition-transform duration-300 hover:scale-105">
+            <div class="h-44 bg-gradient-to-br from-[#3B1C32] to-[#A64D79] flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
             </div>
-        </section>
-
-
-
-
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-            rel="stylesheet">
-        <script>
-            tailwind.config = {
-                theme: {
-                    extend: {
-                        fontFamily: {
-                            sans: ['Inter', 'sans-serif'],
-                        },
-                        colors: {
-                            primary: {
-                                500: '#3B82F6',
-                                600: '#2563EB',
-                            },
-                            secondary: {
-                                500: '#10B981',
-                                600: '#059669',
-                            }
-                        }
-                    }
-                }
-            }
-        </script>
-
-        <section class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-            <div class="text-center mb-12">
-                <span
-                    class="inline-block px-3 py-1 text-sm font-semibold text-secondary-600 bg-secondary-100 rounded-full mb-4">Join
-                    The Movement</span>
-                <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Be Part of the Community & Protect Together
-                </h2>
-                <p class="text-lg text-gray-600 max-w-3xl mx-auto">Collaborate with like-minded individuals to make a
-                    lasting
-                    impact on what matters most.</p>
+            <div class="p-6">
+              <h4 class="text-xl font-semibold mb-2 text-[#3B1C32]">Emergency Rescue</h4>
+              <p class="text-gray-600 text-sm leading-relaxed">
+                Providing critical rescue services for animals in distress, whether injured in accidents or
+                abandoned by their owners.
+              </p>
             </div>
-
-            <div class="grid md:grid-cols-3 gap-8">
-                <!-- Benefit 1 -->
-                <div
-                    class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 border border-gray-100">
-                    <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mb-6">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary-600" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Collaborate</h3>
-                    <p class="text-gray-600">Work alongside passionate individuals who share your commitment to making a
-                        difference.</p>
-                </div>
-
-                <!-- Benefit 2 -->
-                <div
-                    class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 border border-gray-100">
-                    <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mb-6">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary-600" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M13 10V3L4 14h7v7l9-11h-7z" />
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Take Action</h3>
-                    <p class="text-gray-600">Participate in meaningful initiatives that create tangible change in our
-                        community.</p>
-                </div>
-
-                <!-- Benefit 3 -->
-                <div
-                    class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 border border-gray-100">
-                    <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mb-6">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-primary-600" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Share Ideas</h3>
-                    <p class="text-gray-600">Contribute your unique perspective and learn from others in our growing
-                        network.
-                    </p>
-                </div>
+          </div>
+      
+          <!-- Card 3 -->
+          <div class="bg-white rounded-3xl shadow-xl overflow-hidden border-t-4 border-[#A64D79] hover:shadow-2xl transition-transform duration-300 hover:scale-105">
+            <div class="h-44 bg-gradient-to-br from-[#3B1C32] to-[#A64D79] flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+              </svg>
             </div>
-
-            <div class="mt-16 text-center">
-                <p class="text-lg font-medium text-gray-900 mb-8">Together, we can create a stronger, safer future.</p>
-                <div class="flex flex-col sm:flex-row justify-center gap-4">
-                    <a href="#"
-                        class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary-600 hover:bg-primary-700 transition-colors duration-200 shadow-sm">
-                        Join Now
-                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 h-4 w-4" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                        </svg>
-                    </a>
-                    <a href="#"
-                        class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-primary-700 bg-primary-100 hover:bg-primary-200 transition-colors duration-200">
-                        Learn More
-                    </a>
-                </div>
+            <div class="p-6">
+              <h4 class="text-xl font-semibold mb-2 text-[#3B1C32]">Medical Care & Rehabilitation</h4>
+              <p class="text-gray-600 text-sm leading-relaxed">
+                Our state-of-the-art facility offers essential medical care, surgeries, and rehabilitation to help
+                animals recover and thrive.
+              </p>
             </div>
-        </section>
-    @endsection
+          </div>
+        </div>
+      
+        <!-- Call-to-Action -->
+        <div class="relative z-10 text-center mt-16">
+          <button
+            class="bg-gradient-to-r from-[#3B1C32] to-[#A64D79] text-white font-semibold py-3 px-10 rounded-full text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-pink-300">
+            Know More
+          </button>
+        </div>
+      </section>
+      
+
+
+      <section class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto font-sans">
+        <div class="text-center mb-16">
+          <span class="inline-block px-4 py-1 text-sm font-semibold text-[#A64D79] bg-[#FBE8EC] rounded-full mb-4 shadow-sm">
+            Join the Movement
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-[#3B1C32] mb-4 leading-tight tracking-tight">
+            Be Part of the Community & <br class="hidden sm:inline" />Protect Together
+          </h2>
+          <p class="text-lg text-[#5C4B51] max-w-2xl mx-auto">
+            Collaborate with kindred spirits and make a lasting impact in the world of our voiceless friends.
+          </p>
+        </div>
+      
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <!-- Card 1 -->
+          <div class="bg-white/80 backdrop-blur-md border border-[#EDD9E2] rounded-3xl shadow-lg p-8 hover:shadow-xl transition duration-300 ease-in-out">
+            <div class="w-14 h-14 bg-[#A64D79]/10 rounded-full flex items-center justify-center mb-6">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#A64D79]" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-[#3B1C32] mb-3">Collaborate</h3>
+            <p class="text-[#5C4B51]">
+              Join forces with caring individuals to uplift street animals through unity and love.
+            </p>
+          </div>
+      
+          <!-- Card 2 -->
+          <div class="bg-white/80 backdrop-blur-md border border-[#EDD9E2] rounded-3xl shadow-lg p-8 hover:shadow-xl transition duration-300 ease-in-out">
+            <div class="w-14 h-14 bg-[#A64D79]/10 rounded-full flex items-center justify-center mb-6">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#A64D79]" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-[#3B1C32] mb-3">Take Action</h3>
+            <p class="text-[#5C4B51]">
+              Engage in rescue missions and compassionate acts that touch lives—both human and animal.
+            </p>
+          </div>
+      
+          <!-- Card 3 -->
+          <div class="bg-white/80 backdrop-blur-md border border-[#EDD9E2] rounded-3xl shadow-lg p-8 hover:shadow-xl transition duration-300 ease-in-out">
+            <div class="w-14 h-14 bg-[#A64D79]/10 rounded-full flex items-center justify-center mb-6">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#A64D79]" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold text-[#3B1C32] mb-3">Share Ideas</h3>
+            <p class="text-[#5C4B51]">
+              Contribute your voice to a creative circle of guardians passionate about animal welfare.
+            </p>
+          </div>
+        </div>
+      
+        <div class="mt-16 text-center">
+          <p class="text-lg font-semibold text-[#3B1C32] mb-8">Together, we can build a gentle world where all beings feel safe.</p>
+          <div class="flex flex-col sm:flex-row justify-center gap-4">
+            <a href="#"
+              class="inline-flex items-center justify-center px-6 py-3 font-medium rounded-full text-white bg-gradient-to-r from-[#3B1C32] to-[#A64D79] shadow-md hover:shadow-lg hover:scale-105 transition duration-300">
+              Join Now
+              <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </a>
+            <a href="#"
+              class="inline-flex items-center justify-center px-6 py-3 font-medium rounded-full text-[#3B1C32] bg-[#FBE8EC] hover:bg-[#f9dce3] transition duration-300">
+              Learn More
+            </a>
+          </div>
+        </div>
+      </section>
+      
+@endsection

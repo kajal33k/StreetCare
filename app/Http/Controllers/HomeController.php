@@ -25,4 +25,16 @@ class HomeController extends Controller
     public function informer(){
         return view('frontend.informer');
     }
+
+    public function contact(){
+        return view('frontend.contact');
+    }
+
+    public function blog(){
+        return view('frontend.blog');
+    }
+
+    public function donate(){
+        return view('frontend.donate');
+    }
 }
