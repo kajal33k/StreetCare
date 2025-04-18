@@ -31,25 +31,42 @@
 <body class="text-gray-700">
 
   <!-- Topbar -->
-  <div class="bg-[#3B1C32] text-white py-2 px-4 sm:px-6 lg:px-8 text-sm">
-    <div class="max-w-7xl mx-auto flex justify-between items-center">
-      <div class="flex flex-wrap space-x-4 sm:space-x-8">
-        <a href="mailto:contact@example.com" class="flex items-center hover:text-pink-200">
-          <span class="material-icons mr-2">email</span> contact@example.com
+  <div class="bg-[#3B1C32] text-white py-3 px-4 sm:px-6 lg:px-8 text-sm">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-3 md:space-y-0">
+      
+      <!-- Contact Info -->
+      <div class="flex flex-wrap justify-center md:justify-start gap-4 sm:gap-6">
+        <a href="mailto:contact@example.com" class="flex items-center hover:text-pink-200 transition-colors duration-200">
+          <span class="material-icons mr-2 text-base">email</span>
+          contact@example.com
         </a>
-        <a href="tel:+1234567890" class="flex items-center hover:text-pink-200">
-          <span class="material-icons mr-2">call</span> +1 (234) 567-890
+        <a href="tel:+1234567890" class="flex items-center hover:text-pink-200 transition-colors duration-200">
+          <span class="material-icons mr-2 text-base">call</span>
+          +1 (234) 567-890
         </a>
       </div>
+  
+      <!-- Social Icons -->
       <div class="flex space-x-4">
-        <a href="#" class="hover:text-blue-300"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(249, 247, 247);transform: ;msFilter:;"><path d="M12.001 2.002c-5.522 0-9.999 4.477-9.999 9.999 0 4.99 3.656 9.126 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.798c0-2.508 1.493-3.891 3.776-3.891 1.094 0 2.24.195 2.24.195v2.459h-1.264c-1.24 0-1.628.772-1.628 1.563v1.875h2.771l-.443 2.891h-2.328v6.988C18.344 21.129 22 16.992 22 12.001c0-5.522-4.477-9.999-9.999-9.999z"></path></svg></a>
-        <a href="#" class="hover:text-blue-300">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(243, 237, 237);transform: ;msFilter:;"><path d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"></path></svg>
+        <a href="#" class="hover:text-blue-300 transition-colors duration-200">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+            <path d="M12.001 2.002c-5.522 0-9.999 4.477-9.999 9.999 0 4.99 3.656 9.126 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.798c0-2.508 1.493-3.891 3.776-3.891 1.094 0 2.24.195 2.24.195v2.459h-1.264c-1.24 0-1.628.772-1.628 1.563v1.875h2.771l-.443 2.891h-2.328v6.988C18.344 21.129 22 16.992 22 12.001c0-5.522-4.477-9.999-9.999-9.999z" />
+          </svg>
         </a>
-        <a href="#" class="hover:text-blue-300"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(244, 241, 241);transform: ;msFilter:;"><path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096 1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387 2.704 0 3.203 1.778 3.203 4.092v4.71z"></path></svg></a>
+        <a href="#" class="hover:text-blue-300 transition-colors duration-200">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+            <path d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z" />
+          </svg>
+        </a>
+        <a href="#" class="hover:text-blue-300 transition-colors duration-200">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+            <path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096 1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387 2.704 0 3.203 1.778 3.203 4.092v4.71z" />
+          </svg>
+        </a>
       </div>
     </div>
   </div>
+  
 
   <!-- Navbar -->
   <header class="w-full z-50 sticky top-0">
@@ -94,11 +111,12 @@
         </div>
 
         <!-- Mobile Menu Button -->
-        <button id="mobile-menu-button" class="lg:hidden flex flex-col gap-1 p-2 focus:outline-none">
-          <span class="hamburger-line"></span>
-          <span class="hamburger-line"></span>
-          <span class="hamburger-line"></span>
+        <button id="mobile-menu-button" class="lg:hidden flex flex-col items-center justify-center text-black gap-1 p-3 rounded-full shadow-md bg-[#fee0f0] hover:bg-[#fcb4dc] transition-all duration-300 ease-in-out focus:outline-none ring-2 ring-[#c9c2a6]">
+          <span class="hamburger-line w-6 h-0.5 bg-[#7f3960] rounded-full transition-all duration-300 ease-in-out"></span>
+          <span class="hamburger-line w-6 h-0.5 bg-[#7f3966] rounded-full transition-all duration-300 ease-in-out"></span>
+          <span class="hamburger-line w-6 h-0.5 bg-[#7f3960] rounded-full transition-all duration-300 ease-in-out"></span>
         </button>
+        
       </div>
 
       <!-- Mobile Menu -->

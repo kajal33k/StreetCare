@@ -29,7 +29,7 @@
                     <div class="text-center lg:text-left">
                         <h1 class="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
                             <span class="block">This is your chance</span>
-                            <span class="block text-accent">to save a life</span>
+                            <span class="block text-[#3B1C32]">to save a life</span>
                         </h1>
 
                         <p class="mt-3 text-lg text-gray-300 sm:mt-5 sm:text-xl md:mt-5 max-w-lg mx-auto lg:mx-0">

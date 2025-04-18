@@ -1,27 +1,27 @@
 @extends('layout.main')
 @section('content')
     <!-- Hero Section -->
-    <div class="relative bg-[#dcc095] overflow-hidden">
+    <div class="relative bg-[#44223C] overflow-hidden">
         <div class="max-w-7xl mx-auto">
-            <div class="relative z-10 pb-8 bg-[#dcc095] sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
-                <div class="pt-10 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
+            <div class="relative z-10 pb-12 bg-[#44223C] sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+                <div class="pt-10 sm:pt-16 lg:pt-8 lg:pb-14">
                     <div class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                         <div class="sm:text-center lg:text-left">
-                            <h1 class="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
+                            <h1 class="text-4xl tracking-tight font-bold text-[#FDF6EC] sm:text-5xl md:text-6xl">
                                 <span class="block">Help Street Animals</span>
-                                <span class="block text-accent">Today</span>
+                                <span class="block text-[#D8A7B1]">Today</span>
                             </h1>
-                            <p class="mt-3 text-base text-indigo-100 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                                Your donation provides food, shelter, and medical care to animals in need. Every contribution makes a difference.
+                            <p class="mt-4 text-base text-[#EADDE1] sm:mt-6 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-6 md:text-xl lg:mx-0">
+                                Your kindness gives them food, care, and hope. Join the journey to protect and nurture street animals — every small act matters.
                             </p>
-                            <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                            <div class="mt-6 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                                 <div class="rounded-md shadow">
-                                    <a href="#donate-now" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-primary bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10">
+                                    <a href="#donate-now" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-[#44223C] bg-[#FDF6EC] hover:bg-[#e6dbd3] transition md:py-4 md:text-lg md:px-10">
                                         Donate Now
                                     </a>
                                 </div>
                                 <div class="mt-3 sm:mt-0 sm:ml-3">
-                                    <a href="#learn-more" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary-600 hover:bg-yellow-700 md:py-4 md:text-lg md:px-10">
+                                    <a href="#learn-more" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-[#D8A7B1] hover:bg-[#c78b9e] transition md:py-4 md:text-lg md:px-10">
                                         Learn More
                                     </a>
                                 </div>
@@ -31,10 +31,14 @@
                 </div>
             </div>
         </div>
+        <!-- Image Section -->
         <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-            <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://images.unsplash.com/photo-1453227588063-bb302b62f50b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Street animals">
+            <img class="h-64 w-full object-cover sm:h-80 md:h-96 lg:w-full lg:h-full grayscale-[10%] brightness-[95%] saturate-[90%] rounded-bl-3xl shadow-lg"
+                src="https://images.unsplash.com/photo-1453227588063-bb302b62f50b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                alt="Street animals">
         </div>
     </div>
+    
 
     <!-- Impact Section -->
     <div class="py-12 bg-white" id="learn-more">
