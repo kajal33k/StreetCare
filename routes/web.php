@@ -31,3 +31,4 @@ Route::get('/informer', [HomeController::class, 'informer'])->name('informer');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/blog', [HomeController::class, 'blog'])->name('frontend.blog');
 Route::get('/donate', [HomeController::class, 'donate'])->name('frontend.donate');
+Route::get('/learn', [HomeController::class, 'learn'])->name('frontend.learn');

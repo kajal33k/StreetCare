@@ -82,6 +82,7 @@
     <div>
         <h3 class="text-3xl font-bold text-[#46253F] mb-8 text-center">💬 WHAT PEOPLE SAY ABOUT US</h3>
         <!-- Testimonials to go here -->
+        
     </div>
 </section>
 

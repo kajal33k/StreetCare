@@ -37,4 +37,8 @@ class HomeController extends Controller
     public function donate(){
         return view('frontend.donate');
     }
+
+    public function learn(){
+        return view('frontend.learn');
+    }
 }
