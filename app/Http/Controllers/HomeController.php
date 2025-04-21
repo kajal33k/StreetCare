@@ -41,4 +41,32 @@ class HomeController extends Controller
     public function learn(){
         return view('frontend.learn');
     }
+
+    public function adopt(){
+        return view('frontend.adopt');
+    }
+
+    public function care(){
+        return view('frontend.care');
+    }
+
+    public function medical(){
+        return view('frontend.medical');
+    }
+
+    public function protect(){
+        return view('frontend.protect');
+    }
+
+    public function rescue(){
+        return view('frontend.rescue');
+    }
+
+    public function know(){
+        return view('frontend.know');
+    }
+
+    public function gaurdian(){
+        return view('frontend.gaurdian');
+    }
 }

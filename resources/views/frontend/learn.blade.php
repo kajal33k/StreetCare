@@ -12,7 +12,7 @@
     <div class="max-w-4xl mx-auto">
       <h1 class="text-4xl md:text-5xl font-bold mb-4">Learn More About ZiggyPawProtect</h1>
       <p class="text-lg md:text-xl mb-6">Together, we can protect and care for street animals with love and compassion.</p>
-      <img src="https://cdn.pixabay.com/photo/2022/04/04/01/08/bird-7110120_1280.png" alt="Street Animal Help" class="rounded-2xl  mx-auto w-full h-50" />
+      <img src="https://cdn.pixabay.com/photo/2016/02/06/13/31/volunteer-1182899_1280.png" alt="Street Animal Help" class="rounded-2xl  mx-auto w-1/2 " />
     </div>
   </section>
 

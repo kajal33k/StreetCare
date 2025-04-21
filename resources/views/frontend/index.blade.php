@@ -40,7 +40,7 @@
                             class="mt-8 flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center lg:justify-start">
 
                             <!-- Donate Button (styled link as button) -->
-                            <a href="#"
+                            <a href="{{route('frontend.donate')}}"
                                 class="relative inline-block px-6 py-3 font-semibold  text-white transition-all duration-300 ease-in-out  bg-gradient-to-br from-[#A64D79] to-[#3B1C32] rounded-full shadow-lg hover:shadow-2xl hover:scale-105 focus:outline-none focus:ring-4 focus:ring-pink-300">
                                 <span
                                     class="absolute top-0 left-0 w-full h-full rounded-full opacity-10 bg-white blur-md"></span>
@@ -48,12 +48,12 @@
                             </a>
 
                             <!-- Learn More Button -->
-                            <button
+                            <a href="{{route('frontend.learn')}}"
                                 class="relative inline-block px-6 py-3 font-semibold text-white transition-all duration-300 ease-in-out bg-gradient-to-br from-[#A64D79] to-[#3B1C32] rounded-full shadow-lg hover:shadow-2xl hover:scale-105 focus:outline-none focus:ring-4 focus:ring-pink-300">
                                 <span
                                     class="absolute top-0 left-0 w-full h-full rounded-full opacity-10 bg-white blur-md"></span>
                                 <span class="relative z-10">✨Learn More</span>
-                            </button>
+                            </a>
 
                         </div>
 
@@ -108,7 +108,7 @@
                         </div>
                         <h3 class="text-2xl font-bold text-white mb-2">Adopt a Friend</h3>
                         <p class="text-gray-200 mb-4">Open your heart and home to a loving animal in need of family.</p>
-                        <a href="#"
+                        <a href="{{route('frontend.adopt')}}"
                             class="inline-flex items-center text-white font-medium group-hover:text-pink-300 transition-colors">
                             Find your companion
                             <svg xmlns="http://www.w3.org/2000/svg"
@@ -150,7 +150,7 @@
                         <h3 class="text-2xl font-bold text-white mb-2">Donate for Care</h3>
                         <p class="text-gray-200 mb-4">Your contribution helps provide food, shelter and medical treatment.
                         </p>
-                        <a href="#"
+                        <a href="{{route('frontend.care')}}"
                             class="inline-flex items-center text-white font-medium group-hover:text-blue-300 transition-colors">
                             Make a difference
                             <svg xmlns="http://www.w3.org/2000/svg"
@@ -191,7 +191,7 @@
                         </div>
                         <h3 class="text-2xl font-bold text-white mb-2">Medical Help</h3>
                         <p class="text-gray-200 mb-4">Sponsor medical treatments for injured or sick animals.</p>
-                        <a href="#"
+                        <a href="{{route('frontend.medical')}}"
                             class="inline-flex items-center text-white font-medium group-hover:text-green-300 transition-colors">
                             Support treatment
                             <svg xmlns="http://www.w3.org/2000/svg"
@@ -232,7 +232,7 @@
                         </div>
                         <h3 class="text-2xl font-bold text-white mb-2">Protect Animals</h3>
                         <p class="text-gray-200 mb-4">Join our mission to safeguard animals from abuse and neglect.</p>
-                        <a href="#"
+                        <a href="{{route('frontend.protect')}}"
                             class="inline-flex items-center text-white font-medium group-hover:text-purple-300 transition-colors">
                             Become protector
                             <svg xmlns="http://www.w3.org/2000/svg"
@@ -274,7 +274,7 @@
                         </div>
                         <h3 class="text-2xl font-bold text-white mb-2">Volunteer</h3>
                         <p class="text-gray-200 mb-4">Donate your time and skills to help animals directly.</p>
-                        <a href="#"
+                        <a href="{{route('frontend.protect')}}"
                             class="inline-flex items-center text-white font-medium group-hover:text-orange-300 transition-colors">
                             Join our team
                             <svg xmlns="http://www.w3.org/2000/svg"

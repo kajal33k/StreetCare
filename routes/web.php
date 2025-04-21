@@ -3,6 +3,7 @@
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 use Livewire\Volt\Volt;
+use Termwind\Components\Hr;
 
 Route::get('/', function () {
     return view('frontend.index');
@@ -32,3 +33,10 @@ Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/blog', [HomeController::class, 'blog'])->name('frontend.blog');
 Route::get('/donate', [HomeController::class, 'donate'])->name('frontend.donate');
 Route::get('/learn', [HomeController::class, 'learn'])->name('frontend.learn');
+Route::get('/adopt', [HomeController::class, 'adopt'])->name('frontend.adopt');
+Route::get('/care', [HomeController::class, 'care'])->name('frontend.care');
+Route::get('/medical', [HomeController::class, 'medical'])->name('frontend.medical');
+Route::get('/protect', [HomeController::class, 'protect'])->name('frontend.protect');
+Route::get('/rescue', [HomeController::class, 'rescue'])->name('frontend.rescue');
+Route::get('/know', [HomeController::class, 'know'])->name('frontend.know');
+Route::get('gaurdian', [HomeController::class, 'gaurdian'])->name('frontend.gaurdian');
