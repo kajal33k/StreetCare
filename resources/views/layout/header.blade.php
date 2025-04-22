@@ -31,16 +31,16 @@
 <body class="text-gray-700">
 
   <!-- Topbar -->
-  <div class="bg-[#3B1C32] text-white py-3 px-4 sm:px-6 lg:px-8 text-sm">
+  <div class="bg-[#1c3b20] text-white py-3 px-4 sm:px-6 lg:px-8 text-sm">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-3 md:space-y-0">
       
       <!-- Contact Info -->
       <div class="flex flex-wrap justify-center md:justify-start gap-4 sm:gap-6">
-        <a href="mailto:contact@example.com" class="flex items-center hover:text-pink-200 transition-colors duration-200">
+        <a href="mailto:contact@example.com" class="flex items-center hover:text-green-200 transition-colors duration-200">
           <span class="material-icons mr-2 text-base">email</span>
           contact@example.com
         </a>
-        <a href="tel:+1234567890" class="flex items-center hover:text-pink-200 transition-colors duration-200">
+        <a href="tel:+1234567890" class="flex items-center hover:text-green-200 transition-colors duration-200">
           <span class="material-icons mr-2 text-base">call</span>
           +1 (234) 567-890
         </a>
@@ -79,10 +79,10 @@
 
         <!-- Desktop Nav -->
         <div class="hidden lg:flex items-center space-x-4">
-          <a href="{{route('about')}}" class="hover:text-pink-600 font-medium">About Us</a>
+          <a href="{{route('about')}}" class="hover:text-green-600 font-medium">About Us</a>
           <div class="relative group">
             <button
-              class="flex items-center font-medium text-gray-800 hover:text-pink-600 focus:outline-none"
+              class="flex items-center font-medium text-gray-800 hover:text-green-600 focus:outline-none"
             >
               Services
               <svg
@@ -105,42 +105,42 @@
             >
               <a
                 href="{{ route('volenteer') }}"
-                class="block px-4 py-2 hover:bg-pink-50 transition-colors"
+                class="block px-4 py-2 hover:bg-green-50 transition-colors"
               >
                 Volunteer
               </a>
               <a
                 href="{{ route('saviour') }}"
-                class="block px-4 py-2 hover:bg-pink-50 transition-colors"
+                class="block px-4 py-2 hover:bg-green-50 transition-colors"
               >
                 Be a Savior
               </a>
               <a
                 href="{{ route('protector') }}"
-                class="block px-4 py-2 hover:bg-pink-50 transition-colors"
+                class="block px-4 py-2 hover:bg-green-50 transition-colors"
               >
                 Be a Protector
               </a>
               <a
                 href="{{ route('informer') }}"
-                class="block px-4 py-2 hover:bg-pink-50 transition-colors"
+                class="block px-4 py-2 hover:bg-green-50 transition-colors"
               >
                 Be an Informer
               </a>
             </div>
           </div>
           
-          <a href="{{route('frontend.donate')}}" class="hover:text-pink-600 font-medium">Donate</a>
-          <a href="{{route('contact')}}" class="hover:text-pink-600 font-medium">Contact</a>
+          <a href="{{route('frontend.donate')}}" class="hover:text-green-600 font-medium">Donate</a>
+          <a href="{{route('contact')}}" class="hover:text-green-600 font-medium">Contact</a>
         </div>
 
         <!-- Auth Buttons -->
         <div class="hidden lg:flex items-center space-x-3">
-          <a href="{{route('login')}}" class="relative px-5 py-2 bg-gradient-to-r from-[#3B1C32] to-[#A64D79] text-white rounded-full shadow-md hover:scale-105 transition transform duration-300">
+          <a href="{{route('login')}}" class="relative px-5 py-2 bg-gradient-to-r from-[#2C643B] to-[#019645] text-white rounded-full shadow-md hover:scale-105 transition transform duration-300">
             <span class="absolute inset-0 bg-white opacity-10 blur-md rounded-full"></span>
             <span class="relative z-10">Login</span>
           </a>
-          <a href="{{route('register')}}" class="relative px-5 py-2 bg-gradient-to-r from-[#A64D79] to-[#3B1C32] text-white rounded-full shadow-md hover:scale-105 transition transform duration-300">
+          <a href="{{route('register')}}" class="relative px-5 py-2 bg-gradient-to-r from-[#2C643B] to-[#019645] text-white rounded-full shadow-md hover:scale-105 transition transform duration-300">
             <span class="absolute inset-0 bg-white opacity-10 blur-md rounded-full"></span>
             <span class="relative z-10">Register</span>
           </a>
@@ -157,22 +157,22 @@
 
       <!-- Mobile Menu -->
       <div id="mobile-menu" class="hidden lg:hidden mt-4 px-4 space-y-2">
-        <a href="{{route('about')}}" class="block py-2 hover:text-pink-600">About Us</a>
+        <a href="{{route('about')}}" class="block py-2 hover:text-green-600">About Us</a>
         <div class="border-t border-gray-200"></div>
-        <button id="mobile-dropdown-button" class="w-full text-left py-2 flex justify-between items-center hover:text-pink-600">
+        <button id="mobile-dropdown-button" class="w-full text-left py-2 flex justify-between items-center hover:text-green-600">
           Services
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
           </svg>
         </button>
         <div id="mobile-dropdown-menu" class="hidden pl-4 space-y-2">
-          <a href="{{route('volenteer')}}" class="block py-1 hover:text-pink-600">Volunteer</a>
-          <a href="{{route('saviour')}}" class="block py-1 hover:text-pink-600">Be a Savior</a>
-          <a href="{{route('protector')}}" class="block py-1 hover:text-pink-600">Be a Protector</a>
-          <a href="{{route('informer')}}" class="block py-1 hover:text-pink-600">Be an Informer</a>
+          <a href="{{route('volenteer')}}" class="block py-1 hover:text-green-600">Volunteer</a>
+          <a href="{{route('saviour')}}" class="block py-1 hover:text-green-600">Be a Savior</a>
+          <a href="{{route('protector')}}" class="block py-1 hover:text-green-600">Be a Protector</a>
+          <a href="{{route('informer')}}" class="block py-1 hover:text-green-600">Be an Informer</a>
         </div>
-        <a href="{{route('frontend.donate')}}" class="block py-2 hover:text-pink-600">Donate</a>
-        <a href="{{route('contact')}}" class="block py-2 hover:text-pink-600">Contact</a>
+        <a href="{{route('frontend.donate')}}" class="block py-2 hover:text-green-600">Donate</a>
+        <a href="{{route('contact')}}" class="block py-2 hover:text-green-600">Contact</a>
         <div class="border-t border-gray-200 pt-3">
           <a href="{{route('login')}}" class="block w-full text-center py-2 rounded-full text-white bg-gradient-to-r from-[#3B1C32] to-[#A64D79]">Login</a>
           <a href="{{route('register')}}" class="block mt-2 w-full text-center py-2 rounded-full text-white bg-gradient-to-r from-[#A64D79] to-[#3B1C32]">Register</a>

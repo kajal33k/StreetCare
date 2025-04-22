@@ -43,7 +43,6 @@
             <p class="text-[#5B2F53]">Ambulances On Patrol</p>
         </div>
     </div>
-
     <div class="text-center mb-16">
         <p class="text-xl font-medium text-[#46253F] mb-6">Meet our magical ambulant heroes</p>
         <button class="bg-[#723C67] hover:bg-[#5B2F53] text-white font-semibold py-3 px-10 rounded-full text-lg shadow-md hover:shadow-lg transition duration-300 transform hover:scale-105">

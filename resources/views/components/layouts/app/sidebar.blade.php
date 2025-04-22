@@ -11,12 +11,69 @@
                 <x-app-logo />
             </a>
 
-            <flux:navlist variant="outline">
+            {{-- <flux:navlist variant="outline">
                 <flux:navlist.group :heading="__('Platform')" class="grid">
                     <flux:navlist.item icon="home" :href="route('dashboard')" :current="request()->routeIs('dashboard')" wire:navigate>{{ __('Dashboard') }}</flux:navlist.item>
                 </flux:navlist.group>
-            </flux:navlist>
-
+                
+            </flux:navlist> --}}
+            <nav class="border border-gray-200 rounded-lg p-4 bg-black">
+                <div class="mb-4">
+    
+                    <ul class="grid gap-2 mt-2">
+                        <li>
+                            <a href="/dashboard"
+                                class="flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-100 transition-colors
+                            bg-gray-100 text-blue-600 font-semibold">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 12l9-9 9 9M4 10v10h16V10" />
+                                </svg>
+                                Dashboard
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{route('backend.banner.index')}}"
+                                class="flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-100 transition-colors
+                              bg-gray-100 text-blue-600 font-semibold">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 12l9-9 9 9M4 10v10h16V10" />
+                                </svg>
+                                Banner
+                            </a>
+                        </li>
+    
+                        <li>
+                            <a href="#"
+                                class="flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-100 transition-colors
+                              bg-gray-100 text-blue-600 font-semibold">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 12l9-9 9 9M4 10v10h16V10" />
+                                </svg>
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="flex items-center gap-3 px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-100 transition-colors
+                              bg-gray-100 text-blue-600 font-semibold">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 12l9-9 9 9M4 10v10h16V10" />
+                                </svg>
+                                Service
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    
             <flux:spacer />
 
             <flux:navlist variant="outline">

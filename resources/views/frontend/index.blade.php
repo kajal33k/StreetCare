@@ -19,7 +19,7 @@
 
 
     <!-- Hero Section -->
-    <section class="relative overflow-hidden bg-[#A64D79]">
+    <section class="relative overflow-hidden bg-[#4da665]">
         <div class="absolute inset-0 bg-white opacity-40"></div>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -29,7 +29,7 @@
                     <div class="text-center lg:text-left">
                         <h1 class="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
                             <span class="block">This is your chance</span>
-                            <span class="block text-[#3B1C32]">to save a life</span>
+                            <span class="block text-[#1c3b25]">to save a life</span>
                         </h1>
 
                         <p class="mt-3 text-lg text-gray-300 sm:mt-5 sm:text-xl md:mt-5 max-w-lg mx-auto lg:mx-0">
@@ -41,7 +41,7 @@
 
                             <!-- Donate Button (styled link as button) -->
                             <a href="{{route('frontend.donate')}}"
-                                class="relative inline-block px-6 py-3 font-semibold  text-white transition-all duration-300 ease-in-out  bg-gradient-to-br from-[#A64D79] to-[#3B1C32] rounded-full shadow-lg hover:shadow-2xl hover:scale-105 focus:outline-none focus:ring-4 focus:ring-pink-300">
+                                class="relative inline-block px-6 py-3 font-semibold  text-white transition-all duration-300 ease-in-out  bg-gradient-to-br from-[#4da666] to-[#1c3b29] rounded-full shadow-lg hover:shadow-2xl hover:scale-105 focus:outline-none focus:ring-4 focus:ring-green-300">
                                 <span
                                     class="absolute top-0 left-0 w-full h-full rounded-full opacity-10 bg-white blur-md"></span>
                                 <span class="relative z-10">Donate</span>
@@ -49,7 +49,7 @@
 
                             <!-- Learn More Button -->
                             <a href="{{route('frontend.learn')}}"
-                                class="relative inline-block px-6 py-3 font-semibold text-white transition-all duration-300 ease-in-out bg-gradient-to-br from-[#A64D79] to-[#3B1C32] rounded-full shadow-lg hover:shadow-2xl hover:scale-105 focus:outline-none focus:ring-4 focus:ring-pink-300">
+                                class="relative inline-block px-6 py-3 font-semibold text-white transition-all duration-300 ease-in-out bg-gradient-to-br from-[#4da666] to-[#1c3b29] rounded-full shadow-lg hover:shadow-2xl hover:scale-105 focus:outline-none focus:ring-4 focus:ring-green-300">
                                 <span
                                     class="absolute top-0 left-0 w-full h-full rounded-full opacity-10 bg-white blur-md"></span>
                                 <span class="relative z-10">✨Learn More</span>
@@ -287,9 +287,9 @@
                         </a>
                     </div>
                     <div class="absolute top-4 right-4 z-20">
-                        <span
+                       <a href="{{route('frontend.help')}}" <span
                             class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-white/90 text-orange-600">Help
-                            Needed</span>
+                            Needed</span></a>
                     </div>
                 </div>
 
@@ -315,7 +315,7 @@
                         </div>
                         <h3 class="text-2xl font-bold text-white mb-2">Report Rescue</h3>
                         <p class="text-gray-200 mb-4">See an animal in distress? Alert our rescue team immediately.</p>
-                        <a href="#"
+                        <a href="{{route('frontend.report')}}"
                             class="inline-flex items-center text-white font-medium group-hover:text-red-300 transition-colors">
                             Report now
                             <svg xmlns="http://www.w3.org/2000/svg"
@@ -337,7 +337,7 @@
 
             <!-- View All Button -->
             <div class="text-center mt-12">
-                <a href="#"
+                <a href="{{route('frontend.help')}}"
                     class="inline-flex items-center px-8 py-3 text-base font-semibold rounded-full text-white 
                     bg-gradient-to-r from-[#A64D79] to-[#3B1C32] 
                     shadow-lg shadow-pink-200/40 
@@ -394,10 +394,10 @@
                 receives the love, respect, and medical care they deserve.
             </p>
 
-            <button
+            <a href="{{route('frontend.know')}}"><button
                 class="bg-gradient-to-r from-[#A64D79] to-[#3B1C32] text-white font-semibold py-3 px-10 rounded-full text-lg shadow-lg hover:from-[#3B1C32] hover:to-[#A64D79] transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-300">
                 Know More About Us
-            </button>
+            </button></a>
         </div>
     </section>
 
@@ -478,10 +478,10 @@
       
         <!-- Call-to-Action -->
         <div class="relative z-10 text-center mt-16">
-          <button
+         <a href="{{route('frontend.know')}}"><button
             class="bg-gradient-to-r from-[#3B1C32] to-[#A64D79] text-white font-semibold py-3 px-10 rounded-full text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-pink-300">
             Know More
-          </button>
+          </button></a> 
         </div>
       </section>
       
@@ -550,7 +550,7 @@
         <div class="mt-16 text-center">
           <p class="text-lg font-semibold text-[#3B1C32] mb-8">Together, we can build a gentle world where all beings feel safe.</p>
           <div class="flex flex-col sm:flex-row justify-center gap-4">
-            <a href="#"
+            <a href="{{route('contact')}}"
               class="inline-flex items-center justify-center px-6 py-3 font-medium rounded-full text-white bg-gradient-to-r from-[#3B1C32] to-[#A64D79] shadow-md hover:shadow-lg hover:scale-105 transition duration-300">
               Join Now
               <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24"
@@ -558,7 +558,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
             </a>
-            <a href="#"
+            <a href="{{route('frontend.learn')}}"
               class="inline-flex items-center justify-center px-6 py-3 font-medium rounded-full text-[#3B1C32] bg-[#FBE8EC] hover:bg-[#f9dce3] transition duration-300">
               Learn More
             </a>

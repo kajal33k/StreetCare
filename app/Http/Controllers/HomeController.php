@@ -69,4 +69,12 @@ class HomeController extends Controller
     public function gaurdian(){
         return view('frontend.gaurdian');
     }
+
+    public function help(){
+        return view('frontend.help');
+    }
+
+    public function report(){
+        return view('frontend.report');
+    }
 }

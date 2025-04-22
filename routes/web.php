@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BannerController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 use Livewire\Volt\Volt;
@@ -40,3 +41,11 @@ Route::get('/protect', [HomeController::class, 'protect'])->name('frontend.prote
 Route::get('/rescue', [HomeController::class, 'rescue'])->name('frontend.rescue');
 Route::get('/know', [HomeController::class, 'know'])->name('frontend.know');
 Route::get('gaurdian', [HomeController::class, 'gaurdian'])->name('frontend.gaurdian');
+Route::get('/help', [HomeController::class, 'help'])->name('frontend.help');
+Route::get('/report', [HomeController::class, 'report'])->name('frontend.report');
+
+
+
+// backend/////////////////////////////////////////////////////////////////
+
+Route::get('/backend/banner/index', [BannerController::class, 'index'])->name('backend.banner.index');
