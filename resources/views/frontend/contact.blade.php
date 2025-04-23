@@ -3,10 +3,10 @@
 
   <style>
     :root {
-      --primary-color: #44223C;
-      --secondary-color: #8C5C66;
-      --accent-color: #D8A7B1;
-      --light-bg: #FDF6EC;
+      --primary-color: #224424;
+      --secondary-color: #5c8c63;
+      --accent-color: #a7d8bb;
+      --light-bg: #ecfdf8;
       --text-color: #2D1B24;
     }
 
@@ -105,7 +105,7 @@
           <label for="message" class="block font-semibold mb-2">Your Message</label>
           <textarea id="message" name="message" rows="5" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[color:var(--accent-color)]" required></textarea>
         </div>
-        <button type="submit" class="bg-[color:var(--secondary-color)] hover:bg-[#6d4751] text-white px-6 py-3 rounded-lg transition">Send Message</button>
+        <button type="submit" class="bg-[color:var(--secondary-color)] hover:bg-[#476d4d] text-white px-6 py-3 rounded-lg transition">Send Message</button>
       </form>
     </section>
   </main>

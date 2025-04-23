@@ -1,27 +1,27 @@
 @extends('layout.main')
 @section('content')
     <!-- Hero Section -->
-    <div class="relative bg-[#44223C] overflow-hidden">
+    <div class="relative bg-[#22442f] overflow-hidden">
         <div class="max-w-7xl mx-auto">
-            <div class="relative z-10 pb-12 bg-[#44223C] sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+            <div class="relative z-10 pb-12 bg-[#22442f] sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
                 <div class="pt-10 sm:pt-16 lg:pt-8 lg:pb-14">
                     <div class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                         <div class="sm:text-center lg:text-left">
-                            <h1 class="text-4xl tracking-tight font-bold text-[#FDF6EC] sm:text-5xl md:text-6xl">
+                            <h1 class="text-4xl tracking-tight font-bold text-[#ecfdf6] sm:text-5xl md:text-6xl">
                                 <span class="block">Help Street Animals</span>
-                                <span class="block text-[#D8A7B1]">Today</span>
+                                <span class="block text-[#a7d8b0]">Today</span>
                             </h1>
-                            <p class="mt-4 text-base text-[#EADDE1] sm:mt-6 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-6 md:text-xl lg:mx-0">
+                            <p class="mt-4 text-base text-[#ddeae0] sm:mt-6 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-6 md:text-xl lg:mx-0">
                                 Your kindness gives them food, care, and hope. Join the journey to protect and nurture street animals — every small act matters.
                             </p>
                             <div class="mt-6 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                                 <div class="rounded-md shadow">
-                                    <a href="#donate-now" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-[#44223C] bg-[#FDF6EC] hover:bg-[#e6dbd3] transition md:py-4 md:text-lg md:px-10">
+                                    <a href="#donate-now" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-[#22442a] bg-[#ecfdf4] hover:bg-[#d3e6de] transition md:py-4 md:text-lg md:px-10">
                                         Donate Now
                                     </a>
                                 </div>
                                 <div class="mt-3 sm:mt-0 sm:ml-3">
-                                    <a href="#learn-more" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-[#D8A7B1] hover:bg-[#c78b9e] transition md:py-4 md:text-lg md:px-10">
+                                    <a href="#learn-more" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-[#a7d8c4] hover:bg-[#8bc7af] transition md:py-4 md:text-lg md:px-10">
                                         Learn More
                                     </a>
                                 </div>

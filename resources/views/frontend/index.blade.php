@@ -40,7 +40,7 @@
                             class="mt-8 flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center lg:justify-start">
 
                             <!-- Donate Button (styled link as button) -->
-                            <a href="{{route('frontend.donate')}}"
+                            <a href="{{ route('frontend.donate') }}"
                                 class="relative inline-block px-6 py-3 font-semibold  text-white transition-all duration-300 ease-in-out  bg-gradient-to-br from-[#4da666] to-[#1c3b29] rounded-full shadow-lg hover:shadow-2xl hover:scale-105 focus:outline-none focus:ring-4 focus:ring-green-300">
                                 <span
                                     class="absolute top-0 left-0 w-full h-full rounded-full opacity-10 bg-white blur-md"></span>
@@ -48,7 +48,7 @@
                             </a>
 
                             <!-- Learn More Button -->
-                            <a href="{{route('frontend.learn')}}"
+                            <a href="{{ route('frontend.learn') }}"
                                 class="relative inline-block px-6 py-3 font-semibold text-white transition-all duration-300 ease-in-out bg-gradient-to-br from-[#4da666] to-[#1c3b29] rounded-full shadow-lg hover:shadow-2xl hover:scale-105 focus:outline-none focus:ring-4 focus:ring-green-300">
                                 <span
                                     class="absolute top-0 left-0 w-full h-full rounded-full opacity-10 bg-white blur-md"></span>
@@ -77,7 +77,7 @@
             <!-- Section Header -->
             <div class="text-center mb-14">
                 <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                    How You Can <span class="text-pink-500">Make a Difference</span>
+                    How You Can <span class="text-green-500">Make a Difference</span>
                 </h2>
                 <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                     Choose your way to help animals in need. Every action counts in creating a better world for them.
@@ -108,7 +108,7 @@
                         </div>
                         <h3 class="text-2xl font-bold text-white mb-2">Adopt a Friend</h3>
                         <p class="text-gray-200 mb-4">Open your heart and home to a loving animal in need of family.</p>
-                        <a href="{{route('frontend.adopt')}}"
+                        <a href="{{ route('frontend.adopt') }}"
                             class="inline-flex items-center text-white font-medium group-hover:text-pink-300 transition-colors">
                             Find your companion
                             <svg xmlns="http://www.w3.org/2000/svg"
@@ -150,7 +150,7 @@
                         <h3 class="text-2xl font-bold text-white mb-2">Donate for Care</h3>
                         <p class="text-gray-200 mb-4">Your contribution helps provide food, shelter and medical treatment.
                         </p>
-                        <a href="{{route('frontend.care')}}"
+                        <a href="{{ route('frontend.care') }}"
                             class="inline-flex items-center text-white font-medium group-hover:text-blue-300 transition-colors">
                             Make a difference
                             <svg xmlns="http://www.w3.org/2000/svg"
@@ -191,7 +191,7 @@
                         </div>
                         <h3 class="text-2xl font-bold text-white mb-2">Medical Help</h3>
                         <p class="text-gray-200 mb-4">Sponsor medical treatments for injured or sick animals.</p>
-                        <a href="{{route('frontend.medical')}}"
+                        <a href="{{ route('frontend.medical') }}"
                             class="inline-flex items-center text-white font-medium group-hover:text-green-300 transition-colors">
                             Support treatment
                             <svg xmlns="http://www.w3.org/2000/svg"
@@ -232,7 +232,7 @@
                         </div>
                         <h3 class="text-2xl font-bold text-white mb-2">Protect Animals</h3>
                         <p class="text-gray-200 mb-4">Join our mission to safeguard animals from abuse and neglect.</p>
-                        <a href="{{route('frontend.protect')}}"
+                        <a href="{{ route('frontend.protect') }}"
                             class="inline-flex items-center text-white font-medium group-hover:text-purple-300 transition-colors">
                             Become protector
                             <svg xmlns="http://www.w3.org/2000/svg"
@@ -274,7 +274,7 @@
                         </div>
                         <h3 class="text-2xl font-bold text-white mb-2">Volunteer</h3>
                         <p class="text-gray-200 mb-4">Donate your time and skills to help animals directly.</p>
-                        <a href="{{route('frontend.protect')}}"
+                        <a href="{{ route('frontend.protect') }}"
                             class="inline-flex items-center text-white font-medium group-hover:text-orange-300 transition-colors">
                             Join our team
                             <svg xmlns="http://www.w3.org/2000/svg"
@@ -287,7 +287,7 @@
                         </a>
                     </div>
                     <div class="absolute top-4 right-4 z-20">
-                       <a href="{{route('frontend.help')}}" <span
+                        <a href="{{ route('frontend.help') }}" <span
                             class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-white/90 text-orange-600">Help
                             Needed</span></a>
                     </div>
@@ -315,7 +315,7 @@
                         </div>
                         <h3 class="text-2xl font-bold text-white mb-2">Report Rescue</h3>
                         <p class="text-gray-200 mb-4">See an animal in distress? Alert our rescue team immediately.</p>
-                        <a href="{{route('frontend.report')}}"
+                        <a href="{{ route('frontend.report') }}"
                             class="inline-flex items-center text-white font-medium group-hover:text-red-300 transition-colors">
                             Report now
                             <svg xmlns="http://www.w3.org/2000/svg"
@@ -337,14 +337,14 @@
 
             <!-- View All Button -->
             <div class="text-center mt-12">
-                <a href="{{route('frontend.help')}}"
+                <a href="{{ route('frontend.help') }}"
                     class="inline-flex items-center px-8 py-3 text-base font-semibold rounded-full text-white 
-                    bg-gradient-to-r from-[#A64D79] to-[#3B1C32] 
-                    shadow-lg shadow-pink-200/40 
-                    hover:from-[#3B1C32] hover:to-[#A64D79] 
-                    hover:shadow-pink-300/60 
+                    bg-gradient-to-r from-[#4da660] to-[#1c3b22] 
+                    shadow-lg shadow-green-200/40 
+                    hover:from-[#1c3b1f] hover:to-[#4da662] 
+                    hover:shadow-green-300/60 
                     transition-all duration-300 ease-in-out transform hover:-translate-y-0.5 hover:scale-105
-                    focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-300">
+                    focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-300">
                     <span class="relative z-10">Explore all ways to help</span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 -mr-1" viewBox="0 0 20 20"
                         fill="currentColor">
@@ -373,14 +373,13 @@
 
     <!-- Hero Section -->
     <section
-        class="hero-bg min-h-[70vh] flex flex-col justify-center items-center text-white text-center px-4 py-20 bg-gradient-to-b from-[#3B1C32] via-[#A64D79] to-[#EAC9D1] relative overflow-hidden">
+        class="hero-bg min-h-[70vh] flex flex-col justify-center items-center text-white text-center px-4 py-20 bg-gradient-to-b from-[#1c3b2a] via-[#4da67a] to-[#c9eada] relative overflow-hidden">
 
         <!-- Floating Lights (Optional Sparkle Background) -->
         <div class="absolute inset-0 pointer-events-none z-0">
-            <div class="w-80 h-80 bg-pink-200 opacity-10 rounded-full blur-3xl absolute top-10 left-10 animate-pulse">
+            <div class="w-80 h-80 bg-green-200 opacity-10 rounded-full blur-3xl absolute top-10 left-10 animate-pulse">
             </div>
-            <div
-                class="w-60 h-60 bg-purple-300 opacity-10 rounded-full blur-2xl absolute bottom-10 right-10 animate-pulse">
+            <div class="w-60 h-60 bg-teal-300 opacity-10 rounded-full blur-2xl absolute bottom-10 right-10 animate-pulse">
             </div>
         </div>
 
@@ -388,182 +387,193 @@
             <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold mb-4 tracking-wide drop-shadow-md">TRANSFORMING LIVES
             </h1>
             <h2 class="text-2xl md:text-4xl lg:text-5xl font-semibold mb-6 drop-shadow-sm">ONE PAW AT A TIME</h2>
-            <p class="max-w-3xl mx-auto text-base md:text-lg lg:text-xl mb-8 text-pink-100">
+            <p class="max-w-3xl mx-auto text-base md:text-lg lg:text-xl mb-8 text-green-100">
                 Animal Matter to Me (AMTM) is a dedicated nonprofit organization focused on the rescue, rehabilitation,
                 and care of stray and abandoned animals. Since 2010, we have been creating a safe haven where every animal
                 receives the love, respect, and medical care they deserve.
             </p>
 
-            <a href="{{route('frontend.know')}}"><button
-                class="bg-gradient-to-r from-[#A64D79] to-[#3B1C32] text-white font-semibold py-3 px-10 rounded-full text-lg shadow-lg hover:from-[#3B1C32] hover:to-[#A64D79] transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-300">
-                Know More About Us
-            </button></a>
+            <a href="{{ route('frontend.know') }}"><button
+                    class="bg-gradient-to-r from-[#4da67a] to-[#1c3b29] text-white font-semibold py-3 px-10 rounded-full text-lg shadow-lg hover:from-[#1c3b26] hover:to-[#4da682] transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-300">
+                    Know More About Us
+                </button></a>
         </div>
     </section>
 
 
     <!-- What We Do Section -->
-    <section class="py-20 px-4 max-w-7xl mx-auto relative bg-gradient-to-b from-[#FDECEF] via-white to-[#FFF5F7] rounded-3xl shadow-inner overflow-hidden">
+    <section
+        class="py-20 px-4 max-w-7xl mx-auto relative bg-gradient-to-b from-[#ecfdf3] via-white to-[#f5fff9] rounded-3xl shadow-inner overflow-hidden">
 
         <!-- Soft Background Glows (Optional) -->
         <div class="absolute inset-0 z-0 pointer-events-none">
-          <div class="absolute top-0 left-0 w-72 h-72 bg-pink-200 opacity-20 blur-3xl rounded-full animate-pulse"></div>
-          <div class="absolute bottom-0 right-0 w-80 h-80 bg-purple-300 opacity-20 blur-3xl rounded-full animate-pulse"></div>
+            <div class="absolute top-0 left-0 w-72 h-72 bg-green-200 opacity-20 blur-3xl rounded-full animate-pulse"></div>
+            <div class="absolute bottom-0 right-0 w-80 h-80 bg-teal-300 opacity-20 blur-3xl rounded-full animate-pulse">
+            </div>
         </div>
-      
+
         <!-- Section Header -->
         <div class="relative z-10 text-center mb-16">
-          <h2 class="text-3xl md:text-4xl font-bold text-[#3B1C32] tracking-wide mb-2">WHAT WE DO</h2>
-          <h3 class="text-2xl md:text-3xl font-medium text-[#A64D79]">PROTECTING OUR VOICELESS FRIENDS</h3>
-          <p class="text-gray-600 max-w-2xl mx-auto mt-4 text-base md:text-lg">We’re devoted to the care and safety of street animals, bringing warmth, healing, and hope—one paw at a time.</p>
+            <h2 class="text-3xl md:text-4xl font-bold text-[#1c3b30] tracking-wide mb-2">WHAT WE DO</h2>
+            <h3 class="text-2xl md:text-3xl font-medium text-[#4da67e]">PROTECTING OUR VOICELESS FRIENDS</h3>
+            <p class="text-gray-600 max-w-2xl mx-auto mt-4 text-base md:text-lg">We’re devoted to the care and safety of
+                street animals, bringing warmth, healing, and hope—one paw at a time.</p>
         </div>
-      
+
         <!-- Cards Grid -->
         <div class="relative z-10 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          
-          <!-- Card 1 -->
-          <div class="bg-white rounded-3xl shadow-xl overflow-hidden border-t-4 border-[#A64D79] hover:shadow-2xl transition-transform duration-300 hover:scale-105">
-            <div class="h-44 bg-gradient-to-br from-[#3B1C32] to-[#A64D79] flex items-center justify-center">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
+
+            <!-- Card 1 -->
+            <div
+                class="bg-white rounded-3xl shadow-xl overflow-hidden border-t-4 border-[#4da67a] hover:shadow-2xl transition-transform duration-300 hover:scale-105">
+                <div class="h-44 bg-gradient-to-br from-[#1c3b2b] to-[#4da67f] flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <div class="p-6">
+                    <h4 class="text-xl font-semibold mb-2 text-[#1c3b24]">Sterilization & Vaccination</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Controlling the population of stray animals through humane sterilization and vaccination drives,
+                        preventing the spread of diseases.
+                    </p>
+                </div>
             </div>
-            <div class="p-6">
-              <h4 class="text-xl font-semibold mb-2 text-[#3B1C32]">Sterilization & Vaccination</h4>
-              <p class="text-gray-600 text-sm leading-relaxed">
-                Controlling the population of stray animals through humane sterilization and vaccination drives,
-                preventing the spread of diseases.
-              </p>
+
+            <!-- Card 2 -->
+            <div
+                class="bg-white rounded-3xl shadow-xl overflow-hidden border-t-4 border-[#4da678] hover:shadow-2xl transition-transform duration-300 hover:scale-105">
+                <div class="h-44 bg-gradient-to-br from-[#1c3b2a] to-[#4da677] flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <div class="p-6">
+                    <h4 class="text-xl font-semibold mb-2 text-[#1c3b2f]">Emergency Rescue</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Providing critical rescue services for animals in distress, whether injured in accidents or
+                        abandoned by their owners.
+                    </p>
+                </div>
             </div>
-          </div>
-      
-          <!-- Card 2 -->
-          <div class="bg-white rounded-3xl shadow-xl overflow-hidden border-t-4 border-[#A64D79] hover:shadow-2xl transition-transform duration-300 hover:scale-105">
-            <div class="h-44 bg-gradient-to-br from-[#3B1C32] to-[#A64D79] flex items-center justify-center">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
+
+            <!-- Card 3 -->
+            <div
+                class="bg-white rounded-3xl shadow-xl overflow-hidden border-t-4 border-[#4da684] hover:shadow-2xl transition-transform duration-300 hover:scale-105">
+                <div class="h-44 bg-gradient-to-br from-[#1c3b29] to-[#4da67e] flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+                    </svg>
+                </div>
+                <div class="p-6">
+                    <h4 class="text-xl font-semibold mb-2 text-[#1c3b2e]">Medical Care & Rehabilitation</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Our state-of-the-art facility offers essential medical care, surgeries, and rehabilitation to help
+                        animals recover and thrive.
+                    </p>
+                </div>
             </div>
-            <div class="p-6">
-              <h4 class="text-xl font-semibold mb-2 text-[#3B1C32]">Emergency Rescue</h4>
-              <p class="text-gray-600 text-sm leading-relaxed">
-                Providing critical rescue services for animals in distress, whether injured in accidents or
-                abandoned by their owners.
-              </p>
-            </div>
-          </div>
-      
-          <!-- Card 3 -->
-          <div class="bg-white rounded-3xl shadow-xl overflow-hidden border-t-4 border-[#A64D79] hover:shadow-2xl transition-transform duration-300 hover:scale-105">
-            <div class="h-44 bg-gradient-to-br from-[#3B1C32] to-[#A64D79] flex items-center justify-center">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-              </svg>
-            </div>
-            <div class="p-6">
-              <h4 class="text-xl font-semibold mb-2 text-[#3B1C32]">Medical Care & Rehabilitation</h4>
-              <p class="text-gray-600 text-sm leading-relaxed">
-                Our state-of-the-art facility offers essential medical care, surgeries, and rehabilitation to help
-                animals recover and thrive.
-              </p>
-            </div>
-          </div>
         </div>
-      
+
         <!-- Call-to-Action -->
         <div class="relative z-10 text-center mt-16">
-         <a href="{{route('frontend.know')}}"><button
-            class="bg-gradient-to-r from-[#3B1C32] to-[#A64D79] text-white font-semibold py-3 px-10 rounded-full text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-pink-300">
-            Know More
-          </button></a> 
+            <a href="{{ route('frontend.know') }}"><button
+                    class="bg-gradient-to-r from-[#1c3b2b] to-[#4da66e] text-white font-semibold py-3 px-10 rounded-full text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-green-300">
+                    Know More
+                </button></a>
         </div>
-      </section>
-      
+    </section>
 
 
-      <section class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto font-sans">
+
+    <section class="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto font-sans">
         <div class="text-center mb-16">
-          <span class="inline-block px-4 py-1 text-sm font-semibold text-[#A64D79] bg-[#FBE8EC] rounded-full mb-4 shadow-sm">
-            Join the Movement
-          </span>
-          <h2 class="text-3xl sm:text-4xl font-extrabold text-[#3B1C32] mb-4 leading-tight tracking-tight">
-            Be Part of the Community & <br class="hidden sm:inline" />Protect Together
-          </h2>
-          <p class="text-lg text-[#5C4B51] max-w-2xl mx-auto">
-            Collaborate with kindred spirits and make a lasting impact in the world of our voiceless friends.
-          </p>
+            <span
+                class="inline-block px-4 py-1 text-sm font-semibold text-[#4da66e] bg-[#e8fbef] rounded-full mb-4 shadow-sm">
+                Join the Movement
+            </span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-[#1c3b27] mb-4 leading-tight tracking-tight">
+                Be Part of the Community & <br class="hidden sm:inline" />Protect Together
+            </h2>
+            <p class="text-lg text-[#4b5c53] max-w-2xl mx-auto">
+                Collaborate with kindred spirits and make a lasting impact in the world of our voiceless friends.
+            </p>
         </div>
-      
+
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-          <!-- Card 1 -->
-          <div class="bg-white/80 backdrop-blur-md border border-[#EDD9E2] rounded-3xl shadow-lg p-8 hover:shadow-xl transition duration-300 ease-in-out">
-            <div class="w-14 h-14 bg-[#A64D79]/10 rounded-full flex items-center justify-center mb-6">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#A64D79]" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
+            <!-- Card 1 -->
+            <div
+                class="bg-white backdrop-blur-md border border-[#d9ede0] rounded-3xl shadow-lg p-8 hover:shadow-xl transition duration-300 ease-in-out">
+                <div class="w-14 h-14 bg-[#A64D79]/10 rounded-full flex items-center justify-center mb-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#4da66f]" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-[#1c3b29] mb-3">Collaborate</h3>
+                <p class="text-[#4b5c54]">
+                    Join forces with caring individuals to uplift street animals through unity and love.
+                </p>
             </div>
-            <h3 class="text-xl font-bold text-[#3B1C32] mb-3">Collaborate</h3>
-            <p class="text-[#5C4B51]">
-              Join forces with caring individuals to uplift street animals through unity and love.
-            </p>
-          </div>
-      
-          <!-- Card 2 -->
-          <div class="bg-white/80 backdrop-blur-md border border-[#EDD9E2] rounded-3xl shadow-lg p-8 hover:shadow-xl transition duration-300 ease-in-out">
-            <div class="w-14 h-14 bg-[#A64D79]/10 rounded-full flex items-center justify-center mb-6">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#A64D79]" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M13 10V3L4 14h7v7l9-11h-7z" />
-              </svg>
+
+            <!-- Card 2 -->
+            <div
+                class="bg-white backdrop-blur-md border border-[#d9ede6] rounded-3xl shadow-lg p-8 hover:shadow-xl transition duration-300 ease-in-out">
+                <div class="w-14 h-14 bg-[#A64D79]/10 rounded-full flex items-center justify-center mb-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#4da668]" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-[#1c3b28] mb-3">Take Action</h3>
+                <p class="text-[#4b5c52b8]">
+                    Engage in rescue missions and compassionate acts that touch lives—both human and animal.
+                </p>
             </div>
-            <h3 class="text-xl font-bold text-[#3B1C32] mb-3">Take Action</h3>
-            <p class="text-[#5C4B51]">
-              Engage in rescue missions and compassionate acts that touch lives—both human and animal.
-            </p>
-          </div>
-      
-          <!-- Card 3 -->
-          <div class="bg-white/80 backdrop-blur-md border border-[#EDD9E2] rounded-3xl shadow-lg p-8 hover:shadow-xl transition duration-300 ease-in-out">
-            <div class="w-14 h-14 bg-[#A64D79]/10 rounded-full flex items-center justify-center mb-6">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#A64D79]" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
-              </svg>
+
+            <!-- Card 3 -->
+            <div
+                class="bg-white backdrop-blur-md border border-[#EDD9E2] rounded-3xl shadow-lg p-8 hover:shadow-xl transition duration-300 ease-in-out">
+                <div class="w-14 h-14 bg-[#A64D79]/10 rounded-full flex items-center justify-center mb-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#4da67c]" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-[#1c3b2a] mb-3">Share Ideas</h3>
+                <p class="text-[#4b5c50]">
+                    Contribute your voice to a creative circle of guardians passionate about animal welfare.
+                </p>
             </div>
-            <h3 class="text-xl font-bold text-[#3B1C32] mb-3">Share Ideas</h3>
-            <p class="text-[#5C4B51]">
-              Contribute your voice to a creative circle of guardians passionate about animal welfare.
-            </p>
-          </div>
         </div>
-      
+
         <div class="mt-16 text-center">
-          <p class="text-lg font-semibold text-[#3B1C32] mb-8">Together, we can build a gentle world where all beings feel safe.</p>
-          <div class="flex flex-col sm:flex-row justify-center gap-4">
-            <a href="{{route('contact')}}"
-              class="inline-flex items-center justify-center px-6 py-3 font-medium rounded-full text-white bg-gradient-to-r from-[#3B1C32] to-[#A64D79] shadow-md hover:shadow-lg hover:scale-105 transition duration-300">
-              Join Now
-              <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-              </svg>
-            </a>
-            <a href="{{route('frontend.learn')}}"
-              class="inline-flex items-center justify-center px-6 py-3 font-medium rounded-full text-[#3B1C32] bg-[#FBE8EC] hover:bg-[#f9dce3] transition duration-300">
-              Learn More
-            </a>
-          </div>
+            <p class="text-lg font-semibold text-[#1c3b29] mb-8">Together, we can build a gentle world where all beings
+                feel safe.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="{{ route('contact') }}"
+                    class="inline-flex items-center justify-center px-6 py-3 font-medium rounded-full text-white bg-gradient-to-r from-[#1c3b26] to-[#4da677] shadow-md hover:shadow-lg hover:scale-105 transition duration-300">
+                    Join Now
+                    <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                    </svg>
+                </a>
+                <a href="{{ route('frontend.learn') }}"
+                    class="inline-flex items-center justify-center px-6 py-3 font-medium rounded-full text-[#1c3b2c] bg-[#e8fbee] hover:bg-[#dcf9e8] transition duration-300">
+                    Learn More
+                </a>
+            </div>
         </div>
-      </section>
-      
+    </section>
 @endsection
