@@ -2,8 +2,8 @@
  @section('content')
  <style>
     :root {
-      --ghibli-purple: #44223C;
-      --ghibli-light: #f3e8ee;
+      --ghibli-purple: #22442e;
+      --ghibli-light: #e8f3f0;
     }
   </style>
 
