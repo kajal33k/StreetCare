@@ -3,7 +3,7 @@
 <div class="max-w-xl mx-auto py-8">
     <h1 class="text-2xl font-bold mb-6">Create Banner</h1>
 
-    <form action="{{ route('banner.store') }}" method="POST" enctype="multipart/form-data" class="space-y-4">
+    <form action="{{ route('backend.banner.store') }}" method="POST" enctype="multipart/form-data" class="space-y-4">
         @csrf
 
         <div>

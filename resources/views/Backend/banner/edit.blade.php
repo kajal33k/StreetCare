@@ -1,10 +1,8 @@
-@extends('layouts.app')
-
-@section('content')
+<x-layouts.app :title="__('Banner')">
 <div class="container mx-auto p-4 max-w-xl">
     <h1 class="text-2xl font-bold mb-6">Edit Banner</h1>
 
-    <form action="{{ route('banners.update', $banner) }}" method="POST" enctype="multipart/form-data" class="space-y-4">
+    <form action="{{ route('backend.banner.update', $banner) }}" method="POST" enctype="multipart/form-data" class="space-y-4">
         @csrf
         @method('PUT')
 
@@ -32,4 +30,4 @@
         </div>
     </form>
 </div>
-@endsection
+</x-layouts.app>

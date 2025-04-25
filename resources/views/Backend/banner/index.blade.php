@@ -4,7 +4,7 @@
     <div class="max-w-6xl mx-auto py-8">
         <div class="flex justify-between items-center mb-6">
             <h1 class="text-2xl font-bold">All Banners</h1>
-            <a href="{{ route('banner.create') }}" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded">
+            <a href="{{ route('backend.banner.create') }}" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded">
                 + Create New
             </a>
         </div>
@@ -23,8 +23,8 @@
                         <p class="text-gray-600">{{ Str::limit($banner->description, 100) }}</p>
                     </div>
                     <div class="flex gap-2">
-                        <a href="{{ route('banner.edit', $banner) }}" class="text-blue-600 hover:underline">Edit</a>
-                        <form action="{{ route('banner.destroy', $banner) }}" method="POST" onsubmit="return confirm('Are you sure?');">
+                        <a href="{{ route('backend.banner.edit', $banner) }}" class="text-blue-600 hover:underline">Edit</a>
+                        <form action="{{ route('backend.banner.destroy', $banner) }}" method="POST" onsubmit="return confirm('Are you sure?');">
                             @csrf
                             @method('DELETE')
                             <button type="submit" class="text-red-600 hover:underline">Delete</button>

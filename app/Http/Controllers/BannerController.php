@@ -2,85 +2,77 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Banner;
 use App\Http\Requests\BannerRequest;
-use Illuminate\Support\Facades\Storage;
-use Illuminate\Http\RedirectResponse;
-use Illuminate\View\View;
+use App\Models\Banner;
+use Illuminate\Http\Request;
+use App\Http\Requests\StoreBannerRequest;
 
 class BannerController extends Controller
 {
-    /**
-     * Display a listing of the banners.
-     */
-    public function index(): View
+    public function index()
     {
         $banners = Banner::latest()->paginate(10);
-        return view('banner.index', compact('banners'));
+        return view('backend.banner.index', compact('banners'));
     }
 
-    /**
-     * Show the form for creating a new banner.
-     */
-    public function create(): View
+    public function create()
     {
-        return view('banner.create');
+        return view('backend.banner.create');
     }
 
-    /**
-     * Store a newly created banner in storage.
-     */
-    public function store(BannerRequest $request): RedirectResponse
+    public function store(Request $request)
     {
-        $data = $request->validated();
-
-        if ($request->hasFile('image')) {
-            $data['image'] = $request->file('image')->store('banners', 'public');
-        }
-
-        Banner::create($data);
-
-        return redirect()->route('banner.index')->with('success', 'Banner created successfully!');
+        $validated = $request->validate([
+            'title' => 'required|string|max:255',
+            'description' => 'required|string',
+            'image' => 'required|image|mimes:jpg,jpeg,png,gif,webp|max:2048',
+        ]);
+    
+        // Store image
+        $imagePath = $request->file('image')->store('banners', 'public');
+    
+        // Save to database
+        Banner::create([
+            'title' => $validated['title'],
+            'description' => $validated['description'],
+            'image' => $imagePath, // this will be like banners/filename.jpg
+        ]);
+    
+        return redirect()->route('backend.banner.index')->with('success', 'Banner created!');
     }
 
-    /**
-     * Show the form for editing the specified banner.
-     */
-    public function edit(Banner $banner): View
+    public function show(Banner $banner)
     {
-        return view('banner.edit', compact('banner'));
+        return view('backend.banner.show', compact('banner'));
     }
 
-    /**
-     * Update the specified banner in storage.
-     */
-    public function update(BannerRequest $request, Banner $banner): RedirectResponse
+    public function edit(Banner $banner)
     {
-        $data = $request->validated();
-
-        if ($request->hasFile('image')) {
-            if ($banner->image && Storage::disk('public')->exists($banner->image)) {
-                Storage::disk('public')->delete($banner->image);
-            }
-            $data['image'] = $request->file('image')->store('banners', 'public');
-        }
-
-        $banner->update($data);
-
-        return redirect()->route('banner.index')->with('success', 'Banner updated successfully!');
+        return view('backend.banner.edit', compact('banner'));
     }
 
-    /**
-     * Remove the specified banner from storage.
-     */
-    public function destroy(Banner $banner): RedirectResponse
-    {
-        if ($banner->image && Storage::disk('public')->exists($banner->image)) {
-            Storage::disk('public')->delete($banner->image);
-        }
+    public function update(Request $request, $id)
+{
+    $banner = Banner::findOrFail($id);
 
+    $data = $request->validate([
+        'title' => 'required|string|max:255',
+        'description' => 'required|string',
+        'image' => 'nullable|image|max:2048',
+    ]);
+
+    if ($request->hasFile('image')) {
+        $data['image'] = $request->file('image')->store('banners', 'public');
+    }
+
+    $banner->update($data);
+
+    return redirect()->route('backend.banner.index')->with('success', 'Banner updated!');
+}
+
+    public function destroy(Banner $banner)
+    {
         $banner->delete();
-
-        return redirect()->route('banner.index')->with('success', 'Banner deleted successfully!');
+        return redirect()->route('backend.banner.index')->with('success', 'Banner deleted successfully.');
     }
 }
