@@ -17,21 +17,21 @@
 
         <div class="grid gap-4">
             @forelse($differences as $difference)
-                <div class="p-4 border border-gray-200 rounded-lg flex items-center justify-between bg-white shadow-sm">
+                <div class="p-4 border border-gray-200  rounded-lg flex items-center justify-between shadow-xl">
                     <div>
                         <h2 class="text-lg font-semibold text-gray-900">{{ $difference->title }}</h2>
                         <p class="text-gray-600 mt-1">{{ Str::limit($difference->description, 100) }}</p>
                     </div>
                     <div class="flex items-center gap-3">
                         <a href="{{ route('backend.difference.edit', $difference) }}"
-                           class="text-blue-600 hover:underline">
+                           class="bg-blue-600 text-white p-2 rounded-lg hover:underline">
                             Edit
                         </a>
                         <form action="{{ route('backend.difference.destroy', $difference) }}" method="POST"
                               onsubmit="return confirm('Are you sure you want to delete this?');">
                             @csrf
                             @method('DELETE')
-                            <button type="submit" class="text-red-600 hover:underline">
+                            <button type="submit" class="bg-red-600 text-white p-2 rounded-lg hover:underline">
                                 Delete
                             </button>
                         </form>

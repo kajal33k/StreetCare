@@ -24,14 +24,14 @@
                     </div>
                     <div class="flex items-center gap-3">
                         <a href="{{ route('backend.transform.edit', $transform) }}"
-                           class="text-blue-600 hover:underline">
+                           class="bg-blue-600 text-white p-2 rounded-lg hover:underline">
                             Edit
                         </a>
                         <form action="{{ route('backend.transform.destroy', $transform) }}" method="POST"
                               onsubmit="return confirm('Are you sure you want to delete this?');">
                             @csrf
                             @method('DELETE')
-                            <button type="submit" class="text-red-600 hover:underline">
+                            <button type="submit" class="bg-red-600 text-white p-2 rounded-lg hover:underline">
                                 Delete
                             </button>
                         </form>
