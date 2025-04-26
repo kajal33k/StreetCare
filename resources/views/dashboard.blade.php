@@ -27,7 +27,7 @@
         <!-- Main content -->
         <div class="flex flex-col flex-1 overflow-hidden">
             <!-- Mobile top header -->
-            <div class="md:hidden flex items-center justify-between px-4 py-3 bg-black border-b border-gray-200">
+            <div class="md:hidden flex items-center justify-between px-4 py-3 bg-[#84d793] border-b border-gray-200">
                 <div class="flex items-center">
                     <i class="fas fa-paw text-primary-600 text-xl mr-2"></i>
                     <span class="text-lg font-semibold text-gray-900">PawCare</span>
