@@ -147,10 +147,10 @@
         </div>
 
         <!-- Mobile Menu Button -->
-        <button id="mobile-menu-button" class="lg:hidden flex flex-col items-center justify-center text-black gap-1 p-3 rounded-full shadow-md bg-[#fee0f0] hover:bg-[#fcb4dc] transition-all duration-300 ease-in-out focus:outline-none ring-2 ring-[#c9c2a6]">
-          <span class="hamburger-line w-6 h-0.5 bg-[#7f3960] rounded-full transition-all duration-300 ease-in-out"></span>
-          <span class="hamburger-line w-6 h-0.5 bg-[#7f3966] rounded-full transition-all duration-300 ease-in-out"></span>
-          <span class="hamburger-line w-6 h-0.5 bg-[#7f3960] rounded-full transition-all duration-300 ease-in-out"></span>
+        <button id="mobile-menu-button" class="lg:hidden flex flex-col items-center justify-center text-black gap-1 p-3 rounded-full shadow-md bg-[#e0fee5] hover:bg-[#b4fccb] transition-all duration-300 ease-in-out focus:outline-none ring-2 ring-[#c9c2a6]">
+          <span class="hamburger-line w-6 h-0.5 bg-[#397f5a] rounded-full transition-all duration-300 ease-in-out"></span>
+          <span class="hamburger-line w-6 h-0.5 bg-[#397f53] rounded-full transition-all duration-300 ease-in-out"></span>
+          <span class="hamburger-line w-6 h-0.5 bg-[#397f4d] rounded-full transition-all duration-300 ease-in-out"></span>
         </button>
         
       </div>
@@ -174,8 +174,8 @@
         <a href="{{route('frontend.donate')}}" class="block py-2 hover:text-green-600">Donate</a>
         <a href="{{route('contact')}}" class="block py-2 hover:text-green-600">Contact</a>
         <div class="border-t border-gray-200 pt-3">
-          <a href="{{route('login')}}" class="block w-full text-center py-2 rounded-full text-white bg-gradient-to-r from-[#3B1C32] to-[#A64D79]">Login</a>
-          <a href="{{route('register')}}" class="block mt-2 w-full text-center py-2 rounded-full text-white bg-gradient-to-r from-[#A64D79] to-[#3B1C32]">Register</a>
+          <a href="{{route('login')}}" class="block w-full text-center py-2 rounded-full text-white bg-gradient-to-r from-[#1c3b25] to-[#4da662]">Login</a>
+          <a href="{{route('register')}}" class="block mt-2 w-full text-center py-2 rounded-full text-white bg-gradient-to-r from-[#4da65d] to-[#1c3b24]">Register</a>
         </div>
       </div>
     </nav>

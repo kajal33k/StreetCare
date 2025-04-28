@@ -359,18 +359,6 @@
     </section>
 
 
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-        }
-
-        .hero-bg {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1453227588063-bb302b62f50b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
-            background-size: cover;
-            background-position: center;
-        }
-    </style>
-
     <!-- Hero Section -->
     <section
         class="hero-bg min-h-[70vh] flex flex-col justify-center items-center text-white text-center px-4 py-20 bg-gradient-to-b from-[#1c3b2a] via-[#4da67a] to-[#c9eada] relative overflow-hidden">
@@ -525,7 +513,7 @@
 
             <!-- Card 2 -->
             <div
-                class="bg-white backdrop-blur-md border border-[#d9ede6] rounded-3xl shadow-lg p-8 hover:shadow-xl transition duration-300 ease-in-out">
+                class="bg-white backdrop-blur-md border border-[#d9ede1] rounded-3xl shadow-lg p-8 hover:shadow-xl transition duration-300 ease-in-out">
                 <div class="w-14 h-14 bg-[#A64D79]/10 rounded-full flex items-center justify-center mb-6">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#4da668]" fill="none"
                         viewBox="0 0 24 24" stroke="currentColor">
@@ -541,7 +529,7 @@
 
             <!-- Card 3 -->
             <div
-                class="bg-white backdrop-blur-md border border-[#EDD9E2] rounded-3xl shadow-lg p-8 hover:shadow-xl transition duration-300 ease-in-out">
+                class="bg-white backdrop-blur-md border border-[#d9ede3] rounded-3xl shadow-lg p-8 hover:shadow-xl transition duration-300 ease-in-out">
                 <div class="w-14 h-14 bg-[#A64D79]/10 rounded-full flex items-center justify-center mb-6">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#4da67c]" fill="none"
                         viewBox="0 0 24 24" stroke="currentColor">
