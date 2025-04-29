@@ -1,7 +1,7 @@
 @extends('layout.main')
 @section('content')
   <!-- Hero Section -->
-  <section class="min-h-screen flex items-center justify-center px-6 py-20 bg-[#f5faf6]">
+  <section class="min-h-screen flex items-center justify-center px-6 py-20 bg-[#f3f9f4]">
     <div class="max-w-3xl text-center">
       <h1 class="text-4xl sm:text-5xl font-extrabold mb-6 leading-tight text-[#1C3B20]">
         Protect Animals. Be Their Voice. <br class="hidden sm:inline" />
