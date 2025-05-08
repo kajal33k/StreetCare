@@ -45,7 +45,7 @@ Route::get('/know', [HomeController::class, 'know'])->name('frontend.know');
 Route::get('gaurdian', [HomeController::class, 'gaurdian'])->name('frontend.gaurdian');
 Route::get('/help', [HomeController::class, 'help'])->name('frontend.help');
 Route::get('/report', [HomeController::class, 'report'])->name('frontend.report');
-
+Route::get('/privacy', [HomeController::class, 'privacy'])->name('frontend.privacy');
 
 
 // backend/////////////////////////////////////////////////////////////////

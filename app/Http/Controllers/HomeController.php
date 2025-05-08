@@ -77,4 +77,8 @@ class HomeController extends Controller
     public function report(){
         return view('frontend.report');
     }
+
+    public function privacy(){
+        return view('frontend.privacy');
+    }
 }

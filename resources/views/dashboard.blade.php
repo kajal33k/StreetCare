@@ -38,7 +38,7 @@
             </div>
     
             <!-- Main header -->
-            <header class="bg-black shadow-sm">
+            <header class="bg-transparent shadow-sm">
                 <div class="px-4 py-4 sm:px-6 lg:px-8 flex justify-between items-center">
                     <h1 class="text-lg font-semibold leading-6 text-gray-900">Animal Rescue Dashboard</h1>
                     <div class="flex items-center space-x-4">
@@ -61,7 +61,7 @@
             </header>
     
             <!-- Main content area -->
-            <main class="flex-1 overflow-y-auto p-4 sm:p-6 lg:p-8 bg-black">
+            <main class="flex-1 overflow-y-auto p-4 sm:p-6 lg:p-8 bg-transparent">
                 <!-- Stats cards -->
                 <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4 mb-8">
                     <div class="bg-white overflow-hidden shadow rounded-lg">
